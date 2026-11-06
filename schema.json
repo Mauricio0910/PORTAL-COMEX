@@ -1,0 +1,2151 @@
+[
+  {
+    "id": "G01",
+    "title": "Cadastro empresarial e funções",
+    "team": "Ambos",
+    "stage": "01 • Constituição",
+    "fields": [
+      {
+        "key": "razao",
+        "label": "Razão social fictícia",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fantasia",
+        "label": "Nome fantasia",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "cnpj",
+        "label": "CNPJ fictício (14 dígitos, sem validade legal)",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "cidade",
+        "label": "Cidade/UF",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "atividade",
+        "label": "Atividade econômica proposta",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "capital",
+        "label": "Capital inicial (R$)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "integrantes",
+        "label": "Integrantes dos dois trios e funções",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "proposta",
+        "label": "Proposta de valor e posicionamento",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": "Não solicitar CNPJ verdadeiro nem cadastrar empresa real."
+  },
+  {
+    "id": "G02",
+    "title": "Estratégia internacional e estudo de mercado",
+    "team": "Ambos",
+    "stage": "01 • Constituição",
+    "fields": [
+      {
+        "key": "produtoexp",
+        "label": "Produto que a empresa exportará",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "destino",
+        "label": "País de destino",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "cliente",
+        "label": "Comprador estrangeiro fictício",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "produtoimp",
+        "label": "Produto que a empresa importará",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "origem",
+        "label": "País de origem",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fornecedor",
+        "label": "Fornecedor estrangeiro fictício",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "mercado",
+        "label": "Justificativa da escolha dos mercados",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "barreiras",
+        "label": "Barreiras tarifárias e não tarifárias identificadas",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fontes",
+        "label": "Fontes e datas consultadas",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": ""
+  },
+  {
+    "id": "G03",
+    "title": "Ficha técnica, NCM e tratamento administrativo",
+    "team": "Ambos",
+    "stage": "01 • Constituição",
+    "fields": [
+      {
+        "key": "ncmexp",
+        "label": "NCM exportação (8 dígitos)",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "descexp",
+        "label": "Descrição técnica exportação",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "ncmimp",
+        "label": "NCM importação (8 dígitos)",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "descimp",
+        "label": "Descrição técnica importação",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "verificacao",
+        "label": "Tratamento administrativo por operação e órgão anuente, se houver",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "origemregra",
+        "label": "Origem preferencial/Mercosul: hipótese e comprovação",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fontes",
+        "label": "Links oficiais e data da pesquisa",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": "A NCM é hipótese acadêmica: validar em fonte oficial. Não assumir que LPCO é universal."
+  },
+  {
+    "id": "G04",
+    "title": "Habilitação e plano de conformidade",
+    "team": "Ambos",
+    "stage": "01 • Constituição",
+    "fields": [
+      {
+        "key": "representante",
+        "label": "Representante legal fictício",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "habilitacao",
+        "label": "Como seria feita a habilitação/credenciamento real",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "controle",
+        "label": "Órgãos e controles aplicáveis",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "duimp",
+        "label": "Justificativa da via DUIMP ou DI/LI, conforme cronograma vigente",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "documentos",
+        "label": "Lista de documentos exigidos e condicionais para os dois produtos",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fontes",
+        "label": "Fontes oficiais com data",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": "Registro de habilitação é apenas uma simulação acadêmica."
+  },
+  {
+    "id": "E01",
+    "title": "Cotação / Proforma Invoice de exportação",
+    "team": "Trio B • Exportação",
+    "stage": "02 • Exportação",
+    "fields": [
+      {
+        "key": "numero",
+        "label": "Nº proforma simulado",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "comprador",
+        "label": "Comprador e país",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "mercadoria",
+        "label": "Descrição comercial da mercadoria",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "ncm",
+        "label": "NCM",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "quantidade",
+        "label": "Quantidade",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "unidade",
+        "label": "Unidade comercial",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "preco",
+        "label": "Preço unitário (moeda do contrato)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "moeda",
+        "label": "Moeda",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "total",
+        "label": "Valor total",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "incoterm",
+        "label": "Incoterm® 2020 + local nomeado",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "validade",
+        "label": "Validade da proposta",
+        "type": "date",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "pagamento",
+        "label": "Condição de pagamento",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "prazo",
+        "label": "Prazo de embarque",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": ""
+  },
+  {
+    "id": "E02",
+    "title": "Contrato internacional de venda (exportação)",
+    "team": "Trio B • Exportação",
+    "stage": "02 • Exportação",
+    "fields": [
+      {
+        "key": "partes",
+        "label": "Vendedor e comprador com países",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "objeto",
+        "label": "Objeto e especificação técnica",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "valor",
+        "label": "Preço total e moeda",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "incoterm",
+        "label": "Incoterm® 2020 + local nomeado",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "prazo",
+        "label": "Prazo de entrega e cronograma",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "pagamento",
+        "label": "Meio e prazo de pagamento",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "documentos",
+        "label": "Documentos contratuais exigidos",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "riscos",
+        "label": "Cláusulas de inadimplemento, divergência documental e força maior",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "foro",
+        "label": "Lei aplicável e solução de controvérsias",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "assinaturas",
+        "label": "Assinaturas fictícias dos representantes",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": ""
+  },
+  {
+    "id": "E03",
+    "title": "Commercial Invoice — exportação",
+    "team": "Trio B • Exportação",
+    "stage": "02 • Exportação",
+    "fields": [
+      {
+        "key": "numero",
+        "label": "Número da invoice",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "data",
+        "label": "Data de emissão",
+        "type": "date",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "exportador",
+        "label": "Exportador",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "importador",
+        "label": "Importador estrangeiro",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "pais",
+        "label": "País de destino",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "descricao",
+        "label": "Descrição, NCM e origem",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "quantidade",
+        "label": "Quantidade",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "unitario",
+        "label": "Preço unitário",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "total",
+        "label": "Valor total",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "moeda",
+        "label": "Moeda",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "incoterm",
+        "label": "Incoterm® e local",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "pedido",
+        "label": "Contrato/pedido vinculado",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": ""
+  },
+  {
+    "id": "E04",
+    "title": "Packing List — exportação",
+    "team": "Trio B • Exportação",
+    "stage": "02 • Exportação",
+    "fields": [
+      {
+        "key": "invoice",
+        "label": "Invoice vinculada",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "volumes",
+        "label": "Número de volumes",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "embalagem",
+        "label": "Tipo de embalagem",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "conteudo",
+        "label": "Conteúdo por volume",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "peso_liquido",
+        "label": "Peso líquido (kg)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "peso_bruto",
+        "label": "Peso bruto (kg)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "dimensoes",
+        "label": "Dimensões (cm) e cubagem",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "marcas",
+        "label": "Marcas e numeração dos volumes",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "observacoes",
+        "label": "Observações logísticas",
+        "type": "textarea",
+        "required": false,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": ""
+  },
+  {
+    "id": "E05",
+    "title": "Espelho didático de NF-e de saída",
+    "team": "Trio B • Exportação",
+    "stage": "02 • Exportação",
+    "fields": [
+      {
+        "key": "numero",
+        "label": "Nº fictício da NF-e",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "emitente",
+        "label": "Emitente",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "destinatario",
+        "label": "Destinatário",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "natureza",
+        "label": "Natureza da operação",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "cfop",
+        "label": "CFOP proposto (justificar)",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "ncm",
+        "label": "NCM",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "quantidade",
+        "label": "Quantidade",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "valor",
+        "label": "Valor total em R$",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "invoice",
+        "label": "Invoice vinculada",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "observacoes",
+        "label": "Base da escolha fiscal e observações",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": "Não é XML de NF-e, DANFE nem documento fiscal autorizado pela SEFAZ."
+  },
+  {
+    "id": "E06",
+    "title": "Instrução de embarque e transporte — exportação",
+    "team": "Trio B • Exportação",
+    "stage": "02 • Exportação",
+    "fields": [
+      {
+        "key": "modal",
+        "label": "Modal",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "transportador",
+        "label": "Transportador fictício",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "origem",
+        "label": "Local de coleta / embarque",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "destino",
+        "label": "Local de destino",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "documento",
+        "label": "Tipo de conhecimento (BL, AWB, CRT etc.)",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "numero",
+        "label": "Nº de referência simulado",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "volumes",
+        "label": "Volumes e peso",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "incoterm",
+        "label": "Incoterm® e responsabilidade pelo frete",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "embarque",
+        "label": "Data prevista",
+        "type": "date",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "seguro",
+        "label": "Quem contrata seguro e por quê",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": "Conhecimento real é emitido pelo transportador; aqui apenas minuta/instrução."
+  },
+  {
+    "id": "E07",
+    "title": "Apólice / certificado de seguro — exportação",
+    "team": "Trio B • Exportação",
+    "stage": "02 • Exportação",
+    "fields": [
+      {
+        "key": "seguradora",
+        "label": "Seguradora hipotética",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "segurado",
+        "label": "Segurado",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "valor",
+        "label": "Valor segurado e moeda",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "cobertura",
+        "label": "Riscos cobertos e exclusões",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "trajeto",
+        "label": "Origem e destino",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "vigencia",
+        "label": "Período de cobertura",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "justificativa",
+        "label": "Fundamento da contratação ou dispensa",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": true,
+    "note": "Documento emitido por seguradora real; aqui apenas ficha de contratação."
+  },
+  {
+    "id": "E08",
+    "title": "LPCO / anuência de exportação (se aplicável)",
+    "team": "Trio B • Exportação",
+    "stage": "02 • Exportação",
+    "fields": [
+      {
+        "key": "ncm",
+        "label": "NCM e produto",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "orgao",
+        "label": "Órgão anuente, se aplicável",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "modelo",
+        "label": "Tipo de LPCO ou exigência",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fundamento",
+        "label": "Fundamento e fonte oficial",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "dados",
+        "label": "Dados necessários à solicitação",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "situacao",
+        "label": "Resultado didático (solicitado/dispensado)",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "justificativa",
+        "label": "Justificativa de aplicabilidade/dispensa",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": true,
+    "note": "A exigência depende de produto, NCM e operação."
+  },
+  {
+    "id": "E09",
+    "title": "Certificado de origem (se aplicável)",
+    "team": "Trio B • Exportação",
+    "stage": "02 • Exportação",
+    "fields": [
+      {
+        "key": "produto",
+        "label": "Produto e NCM",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "pais",
+        "label": "País importador",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "acordo",
+        "label": "Acordo comercial invocado",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "criterio",
+        "label": "Critério de origem e comprovação",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "emissor",
+        "label": "Entidade emissora competente a pesquisar",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "beneficio",
+        "label": "Preferência tarifária estimada e fonte",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "justificativa",
+        "label": "Aplicabilidade/dispensa",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": true,
+    "note": "A emissão real cabe à entidade/sistema competente; aqui só minuta acadêmica."
+  },
+  {
+    "id": "E10",
+    "title": "Espelho acadêmico da DU-E",
+    "team": "Trio B • Exportação",
+    "stage": "02 • Exportação",
+    "fields": [
+      {
+        "key": "exportador",
+        "label": "Exportador fictício",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "comprador",
+        "label": "Comprador",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "nfe",
+        "label": "Referência NF-e simulada",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "invoice",
+        "label": "Invoice vinculada",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "ncm",
+        "label": "NCM",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "quantidade",
+        "label": "Quantidade estatística",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "valor",
+        "label": "Valor da mercadoria",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "moeda",
+        "label": "Moeda",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "pais",
+        "label": "País de destino",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "embarque",
+        "label": "Local de despacho e embarque",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "modal",
+        "label": "Modal",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "enquadramento",
+        "label": "Enquadramento da operação",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "lpco",
+        "label": "LPCO vinculado ou justificativa de dispensa",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": "Não é uma DU-E oficial; protocolo gerado pelo portal é exclusivamente acadêmico."
+  },
+  {
+    "id": "E11",
+    "title": "Câmbio, recebimento e financiamento da exportação",
+    "team": "Trio B • Exportação",
+    "stage": "02 • Exportação",
+    "fields": [
+      {
+        "key": "invoice",
+        "label": "Invoice vinculada",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "moeda",
+        "label": "Moeda",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "valor",
+        "label": "Valor a receber",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "prazo",
+        "label": "Prazo em dias",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "taxa",
+        "label": "Taxa de câmbio hipotética (R$/moeda)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "receita",
+        "label": "Receita estimada em R$",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "financiamento",
+        "label": "ACC, ACE, PROEX, BNDES Exim ou recursos próprios",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "custo",
+        "label": "Custo financeiro estimado em R$",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "hedge",
+        "label": "Estratégia de proteção cambial e risco de crédito",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fonte",
+        "label": "Fontes e premissas utilizadas",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": ""
+  },
+  {
+    "id": "I01",
+    "title": "Solicitação de cotação e pedido de compra internacional",
+    "team": "Trio A • Importação",
+    "stage": "03 • Importação",
+    "fields": [
+      {
+        "key": "fornecedor",
+        "label": "Fornecedor estrangeiro",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "produto",
+        "label": "Produto a importar",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "ncm",
+        "label": "NCM",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "quantidade",
+        "label": "Quantidade",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "unidade",
+        "label": "Unidade",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "preco",
+        "label": "Preço unitário",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "total",
+        "label": "Total",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "moeda",
+        "label": "Moeda",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "incoterm",
+        "label": "Incoterm® + local",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "entrega",
+        "label": "Prazo de entrega",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "pagamento",
+        "label": "Meio de pagamento",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": ""
+  },
+  {
+    "id": "I02",
+    "title": "Contrato de compra internacional — importação",
+    "team": "Trio A • Importação",
+    "stage": "03 • Importação",
+    "fields": [
+      {
+        "key": "partes",
+        "label": "Importador brasileiro e fornecedor",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "objeto",
+        "label": "Mercadoria e especificações",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "preco",
+        "label": "Preço total e moeda",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "incoterm",
+        "label": "Incoterm® + local",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "entrega",
+        "label": "Prazo e modal",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "pagamento",
+        "label": "Pagamento e garantia",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "inspecao",
+        "label": "Inspeção, conformidade e divergências",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "documentos",
+        "label": "Documentos exigidos do fornecedor",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "foro",
+        "label": "Lei aplicável e disputas",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "assinaturas",
+        "label": "Assinaturas fictícias",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": ""
+  },
+  {
+    "id": "I03",
+    "title": "Commercial Invoice — importação",
+    "team": "Trio A • Importação",
+    "stage": "03 • Importação",
+    "fields": [
+      {
+        "key": "numero",
+        "label": "Número da invoice",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "data",
+        "label": "Data",
+        "type": "date",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fornecedor",
+        "label": "Exportador estrangeiro",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "importador",
+        "label": "Importador brasileiro",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "origem",
+        "label": "País de origem",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "procedencia",
+        "label": "País de procedência",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "descricao",
+        "label": "Descrição detalhada e NCM sugerida",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "quantidade",
+        "label": "Quantidade",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "unitario",
+        "label": "Preço unitário",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "total",
+        "label": "Valor total",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "moeda",
+        "label": "Moeda",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "incoterm",
+        "label": "Incoterm® e local",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": ""
+  },
+  {
+    "id": "I04",
+    "title": "Packing List — importação",
+    "team": "Trio A • Importação",
+    "stage": "03 • Importação",
+    "fields": [
+      {
+        "key": "invoice",
+        "label": "Invoice vinculada",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "volumes",
+        "label": "Volumes",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "embalagem",
+        "label": "Embalagem",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "conteudo",
+        "label": "Conteúdo e identificação dos volumes",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "peso_liquido",
+        "label": "Peso líquido (kg)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "peso_bruto",
+        "label": "Peso bruto (kg)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "dimensoes",
+        "label": "Dimensões",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "marcas",
+        "label": "Marcas e números",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "obs",
+        "label": "Observações",
+        "type": "textarea",
+        "required": false,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": ""
+  },
+  {
+    "id": "I05",
+    "title": "Conhecimento de transporte / instrução — importação",
+    "team": "Trio A • Importação",
+    "stage": "03 • Importação",
+    "fields": [
+      {
+        "key": "modal",
+        "label": "Modal",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "transportador",
+        "label": "Transportador hipotético",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "tipo",
+        "label": "BL, AWB, CRT ou equivalente",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "referencia",
+        "label": "Referência simulada",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "origem",
+        "label": "Origem do transporte",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "destino",
+        "label": "Destino do transporte",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "consignatario",
+        "label": "Consignatário",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "volumes",
+        "label": "Volumes/peso",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "frete",
+        "label": "Frete e moeda",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "seguro",
+        "label": "Seguro e responsável",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": "Minuta acadêmica; conhecimento real é emitido pelo transportador."
+  },
+  {
+    "id": "I06",
+    "title": "Catálogo de produtos e operador estrangeiro",
+    "team": "Trio A • Importação",
+    "stage": "03 • Importação",
+    "fields": [
+      {
+        "key": "produto",
+        "label": "Identificação do produto",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "ncm",
+        "label": "NCM",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fabricante",
+        "label": "Fabricante",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "pais",
+        "label": "País de fabricação",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "marca",
+        "label": "Marca/modelo",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "especificacao",
+        "label": "Descrição técnica, composição e finalidade",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "operador",
+        "label": "Operador estrangeiro fictício",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "atributos",
+        "label": "Atributos relevantes conforme classificação",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fonte",
+        "label": "Referências e critérios de classificação",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": "Espelho simplificado do cadastro; campos oficiais variam por NCM."
+  },
+  {
+    "id": "I07",
+    "title": "LPCO de importação / anuência (se aplicável)",
+    "team": "Trio A • Importação",
+    "stage": "03 • Importação",
+    "fields": [
+      {
+        "key": "ncm",
+        "label": "NCM e produto",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "orgao",
+        "label": "Órgão anuente",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "tipo",
+        "label": "Modelo LPCO ou exigência",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fundamento",
+        "label": "Fundamento e fonte",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "dados",
+        "label": "Dados/documentos a apresentar",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "momento",
+        "label": "Momento da exigência",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "justificativa",
+        "label": "Aplicabilidade/dispensa",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": true,
+    "note": "Na via Duimp, controles administrativos podem requerer LPCO; conferir tratamento vigente."
+  },
+  {
+    "id": "I08",
+    "title": "Espelho acadêmico da Duimp / via legada fundamentada",
+    "team": "Trio A • Importação",
+    "stage": "03 • Importação",
+    "fields": [
+      {
+        "key": "via",
+        "label": "Via escolhida: Duimp ou DI/LI (fundamentar)",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "importador",
+        "label": "Importador",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fornecedor",
+        "label": "Fornecedor",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "catalogo",
+        "label": "Produto do catálogo",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "invoice",
+        "label": "Invoice vinculada",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "transporte",
+        "label": "Conhecimento vinculado",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "ncm",
+        "label": "NCM",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "quantidade",
+        "label": "Quantidade",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "valor",
+        "label": "Valor da mercadoria",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "moeda",
+        "label": "Moeda",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "incoterm",
+        "label": "Incoterm®",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "origem",
+        "label": "Origem/procedência",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "tributacao",
+        "label": "Base e hipóteses tributárias",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "lpco",
+        "label": "LPCO ou justificativa de dispensa",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fontes",
+        "label": "Fontes oficiais sobre cronograma e via escolhida",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": "O fluxo Duimp/DI depende do cronograma de migração e características da operação."
+  },
+  {
+    "id": "I09",
+    "title": "Planilha de tributos e custo nacionalizado",
+    "team": "Trio A • Importação",
+    "stage": "03 • Importação",
+    "fields": [
+      {
+        "key": "valoraduaneiro",
+        "label": "Valor aduaneiro estimado em R$",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "ii",
+        "label": "II estimado (R$)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "ipi",
+        "label": "IPI estimado (R$)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "pis",
+        "label": "PIS-Importação estimado (R$)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "cofins",
+        "label": "Cofins-Importação estimado (R$)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "icms",
+        "label": "ICMS estimado (R$)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "taxas",
+        "label": "Taxas, armazenagem, despacho e frete interno (R$)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "total",
+        "label": "Custo nacionalizado total (R$)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "metodo",
+        "label": "Memória de cálculo, alíquotas e bases; tributos interdependentes",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fontes",
+        "label": "Fontes e datas das alíquotas",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": "Valores simulados; não presumir alíquotas. ICMS e outros tributos dependem de enquadramento e UF."
+  },
+  {
+    "id": "I10",
+    "title": "Espelho de NF-e de entrada/importação",
+    "team": "Trio A • Importação",
+    "stage": "03 • Importação",
+    "fields": [
+      {
+        "key": "numero",
+        "label": "Nº fictício",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "emitente",
+        "label": "Importador/emitente",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fornecedor",
+        "label": "Fornecedor estrangeiro",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "natureza",
+        "label": "Natureza da operação",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "cfop",
+        "label": "CFOP proposto e fundamento",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "ncm",
+        "label": "NCM",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "quantidade",
+        "label": "Quantidade",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "valor",
+        "label": "Valor total em R$",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "duimp",
+        "label": "Referência Duimp/DI simulada",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "tributos",
+        "label": "Tributos destacados hipoteticamente",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": "Não gera XML, autorização da SEFAZ nem documento fiscal válido."
+  },
+  {
+    "id": "I11",
+    "title": "Pagamento internacional e risco cambial — importação",
+    "team": "Trio A • Importação",
+    "stage": "03 • Importação",
+    "fields": [
+      {
+        "key": "invoice",
+        "label": "Invoice vinculada",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "moeda",
+        "label": "Moeda",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "valor",
+        "label": "Valor a pagar",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "prazo",
+        "label": "Prazo em dias",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "taxa",
+        "label": "Câmbio hipotético (R$/moeda)",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "reais",
+        "label": "Desembolso estimado em R$",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "meio",
+        "label": "Meio de pagamento",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "financiamento",
+        "label": "Financiamento ou capital próprio",
+        "type": "text",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "hedge",
+        "label": "Proteção cambial e controles",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fonte",
+        "label": "Premissas e fontes",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": ""
+  },
+  {
+    "id": "G05",
+    "title": "Matriz de riscos e controles",
+    "team": "Ambos",
+    "stage": "04 • Integração",
+    "fields": [
+      {
+        "key": "risco_comercial",
+        "label": "Risco comercial e controle",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "risco_cambial",
+        "label": "Risco cambial e proteção",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "risco_logistico",
+        "label": "Risco logístico e seguro",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "risco_aduaneiro",
+        "label": "Risco regulatório e documental",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "risco_pais",
+        "label": "Risco-país / barreiras / Mercosul",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "contingencia",
+        "label": "Plano de contingência para atraso, retenção ou inadimplemento",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": ""
+  },
+  {
+    "id": "G06",
+    "title": "Demonstração gerencial e decisão final",
+    "team": "Ambos",
+    "stage": "04 • Integração",
+    "fields": [
+      {
+        "key": "receitaexp",
+        "label": "Receita de exportação em R$",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "custoexp",
+        "label": "Custo total da exportação em R$",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "margemexp",
+        "label": "Resultado estimado da exportação em R$",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "custoimp",
+        "label": "Custo nacionalizado da importação em R$",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "receitaimp",
+        "label": "Receita prevista com revenda/uso da importação em R$",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "resultadoimp",
+        "label": "Resultado estimado associado à importação em R$",
+        "type": "number",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fluxo",
+        "label": "Fluxo de caixa e descasamento financeiro",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "bp",
+        "label": "Relação da operação com a balança comercial e o balanço de pagamentos",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "decisao",
+        "label": "Parecer final: aprovar, renegociar ou recusar; justificativa",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      },
+      {
+        "key": "fontes",
+        "label": "Referências e premissas da análise",
+        "type": "textarea",
+        "required": true,
+        "hint": ""
+      }
+    ],
+    "conditional": false,
+    "note": ""
+  }
+]

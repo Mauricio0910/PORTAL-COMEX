@@ -1,0 +1,16 @@
+services:
+  comex-lab:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      COMEX_DB: /data/comex.sqlite3
+      COMEX_HTTPS: "1"
+      COMEX_ADMIN_EMAIL: "${COMEX_ADMIN_EMAIL}"
+      COMEX_ADMIN_NAME: "${COMEX_ADMIN_NAME:-Professor}"
+      COMEX_ADMIN_PASSWORD: "${COMEX_ADMIN_PASSWORD}"
+    volumes:
+      - comex-data:/data
+volumes:
+  comex-data:
