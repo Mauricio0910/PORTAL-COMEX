@@ -6,6 +6,16 @@ Portal acadêmico **funcional**, com banco de dados SQLite e servidor Python. El
 
 > **ATENÇÃO:** Este pacote **não está hospedado na internet**. Para que alunos acessem de suas casas, instale-o em uma hospedagem com domínio e HTTPS. O pacote não se conecta ao Siscomex e **não** emite documentos oficiais.
 
+## ATENÇÃO — correção da tela sem formatação (versão 1.1)
+
+Se a página aparecer apenas com texto preto em fundo branco, provavelmente o arquivo `index.html` foi aberto diretamente pelo explorador de arquivos. O HTML **não é o servidor**: não oferece login nem salva respostas.
+
+**Início rápido no Windows:** extraia o ZIP, entre na pasta `COMEX_LAB_ND2_Portal_Online` e execute `INICIAR_PORTAL_WINDOWS.bat`. O script verifica o Python, solicita o cadastro inicial do professor e abre o navegador no endereço `http://127.0.0.1:8080`. Mantenha a janela do servidor aberta durante o uso.
+
+**Mac/Linux:** execute `sh INICIAR_PORTAL_MAC_LINUX.sh` no terminal.
+
+O CSS e o JavaScript foram alterados para caminhos relativos, e a abertura direta do HTML agora exibe um aviso com instruções. Isso **não** transforma o HTML em portal online: para acesso remoto de equipes diferentes é necessária hospedagem HTTPS e banco de dados persistente.
+
 ## 1. Iniciar em um computador (Windows, macOS ou Linux)
 
 Requisito: **Python 3.10 ou superior**. Não é necessário instalar bibliotecas extras.

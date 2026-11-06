@@ -219,5 +219,10 @@ document.addEventListener("submit",async e=>{
     else if(form.id==="gradeForm"){const rubric={};for(const [k] of state.rubric)rubric[k]=Number(data[k]);const r=await api("/api/teacher/grade","POST",{group_id:state.selected.group.id,rubric,feedback:data.feedback});await openTeacherGroup(state.selected.group.id);notice("Nota registrada: "+r.score+"/100.");}
   }catch(err){notice(err.message,true);}
 });
-load().catch(e=>notice(e.message,true));
+if (location.protocol === "file:") {
+  $("offlineHelp").classList.remove("hidden");
+  $("auth").classList.add("hidden");
+} else {
+  load().catch(e=>notice(e.message,true));
+}
 })();
