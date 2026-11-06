@@ -1,0 +1,14 @@
+# Nunca publicar credenciais, banco de dados ou respostas dos estudantes
+.env
+.env.*
+!.env.example
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+backups/
+exports/
