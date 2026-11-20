@@ -1,0 +1,26 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function profile() {
+      return get(/databases/$(database)/documents/comexAcessos/$(request.auth.uid)).data;
+    }
+    match /comexAcessos/{uid} {
+      allow get: if request.auth != null && request.auth.uid == uid;
+    }
+    match /comexEntregas/{submission} {
+      allow read: if request.auth != null && profile().role == 'professor';
+      allow create: if request.auth != null && profile().role == 'grupo'
+        && request.resource.data.keys().hasAll(['uid', 'turma', 'grupo', 'docs', 'sentAt'])
+        && request.resource.data.keys().hasOnly(['uid', 'turma', 'grupo', 'docs', 'sentAt'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.turma is string
+        && request.resource.data.turma == profile().turma
+        && request.resource.data.grupo is string
+        && request.resource.data.grupo == profile().grupo
+        && request.resource.data.docs is map
+        && request.resource.data.docs.size() > 0
+        && request.resource.data.docs.size() <= 40
+        && request.resource.data.sentAt == request.time;
+    }
+  }
+}
